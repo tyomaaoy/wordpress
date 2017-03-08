@@ -207,7 +207,7 @@ Vagrant.configure('2') do |config|
   config.vm.provider 'virtualbox' do |vb|
     # Give VM access to all cpu cores on the host
     cpus = case RbConfig::CONFIG['host_os']
-      when /darwin/ then `sysctl -n hw.ncpu`.to_i
+      when /darwin/ then `sysctl -n hw.physicalcpu`.to_i
       when /linux/ then `nproc`.to_i
       else 2
     end
@@ -215,6 +215,7 @@ Vagrant.configure('2') do |config|
     # Customize memory in MB
     vb.customize ['modifyvm', :id, '--memory', 1536]
     vb.customize ['modifyvm', :id, '--cpus', cpus]
+    vb.customize ["modifyvm", :id, "--cpuexecutioncap", "80"]
 
     # Fix for slow external network connections
     vb.customize ['modifyvm', :id, '--natdnshostresolver1', 'on']
