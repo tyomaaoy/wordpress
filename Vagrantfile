@@ -213,8 +213,9 @@ Vagrant.configure('2') do |config|
     end
 
     # Customize memory in MB
-    vb.customize ['modifyvm', :id, '--memory', 1536]
+    vb.customize ['modifyvm', :id, '--memory', 4096]
     vb.customize ['modifyvm', :id, '--cpus', cpus]
+    vb.customize ["modifyvm", :id, "--vram", 16]
     vb.customize ["modifyvm", :id, "--cpuexecutioncap", "80"]
 
     # Fix for slow external network connections
