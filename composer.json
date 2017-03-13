@@ -77,7 +77,6 @@
     "roots/wp-password-bcrypt": "*",
     "anttiviljami/wp-libre-form": "*",
 
-    "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/simple-history": "*",
