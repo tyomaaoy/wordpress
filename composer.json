@@ -68,21 +68,15 @@
 
     "wpackagist-plugin/timber-library": "^1.7",
     "wpackagist-plugin/polylang": "*",
-    "wpackagist-plugin/relevanssi": "*",
     "devgeniem/wp-sanitize-accented-uploads": "*",
     "wpackagist-plugin/autodescription": "*",
-    "wpackagist-plugin/wp-migrate-db": "*",
-    "wpackagist-plugin/editor-buttons-simplified": "*",
     "roots/soil": "*",
     "roots/wp-password-bcrypt": "*",
-    "anttiviljami/wp-libre-form": "*",
 
     "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/enable-media-replace": "*",
-    "wpackagist-plugin/simple-history": "*",
-
-    "wpackagist-plugin/tinymce-advanced": "*"
+    "wpackagist-plugin/simple-history": "*"
   },
   "extra": {
     "installer-paths": {
