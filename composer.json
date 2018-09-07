@@ -51,13 +51,13 @@
   "require": {
     "php": ">=5.3.2",
     "johnpbloch/wordpress-core-installer": "^0.2.1",
-    "johnpbloch/wordpress-core": "^4.7",
+    "johnpbloch/wordpress-core": "^4.9",
     "composer/installers": "v1.0.12",
     "koodimonni/composer-dropin-installer": ">=0.2.4",
     "vlucas/phpdotenv": "v2.4.0",
 
-    "koodimonni-language/fi": "*",
-    "koodimonni-language/sv_SE": "*",
+    "koodimonni-language/fi": "^4.9",
+    "koodimonni-language/sv_SE": "^4.9",
 
     "seravo/seravo-plugin": ">=1.4.0",
 
