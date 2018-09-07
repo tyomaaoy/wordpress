@@ -74,10 +74,6 @@ Vagrant.configure('2') do |config|
   # This is needed for updating the /etc/hosts file
   config.vm.network :private_network, ip: private_ip
 
-  if is_osx?
-    config.vm.network :private_network, ip: "::1"
-  end
-
   config.vm.define "#{site_config['name']}-box"
 
   if Vagrant.has_plugin? 'vagrant-hostsupdater'
