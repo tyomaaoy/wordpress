@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c31d79f177f5c1a4ab4088b7d688e109",
+    "content-hash": "a24ef86564ed80da721a7cff0dfe2109",
     "packages": [
         {
             "name": "composer/installers",
@@ -220,6 +220,34 @@
                 "wordpress"
             ],
             "time": "2015-06-11T15:15:30+00:00"
+        },
+        {
+            "name": "k1sul1/sensible-content-output",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/k1sul1/sensible-content-output.git",
+                "reference": "4edd19674f0526036e1e4e78151cbb7c63d03c32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/k1sul1/sensible-content-output/zipball/4edd19674f0526036e1e4e78151cbb7c63d03c32",
+                "reference": "4edd19674f0526036e1e4e78151cbb7c63d03c32",
+                "shasum": ""
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL2"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Nikkanen",
+                    "email": "christian.nikkanen@gmail.com"
+                }
+            ],
+            "description": "Make the_content() output a little more sane with these features. All features are optional and disabling them is easy.",
+            "time": "2017-05-04T07:40:35+00:00"
         },
         {
             "name": "koodimonni-language/fi",
@@ -1196,7 +1224,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "k1sul1/sensible-content-output": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

@@ -76,7 +76,8 @@
     "wpackagist-plugin/regenerate-thumbnails": "*",
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/enable-media-replace": "*",
-    "wpackagist-plugin/simple-history": "*"
+    "wpackagist-plugin/simple-history": "*",
+    "k1sul1/sensible-content-output": "dev-master"
   },
   "extra": {
     "installer-paths": {
