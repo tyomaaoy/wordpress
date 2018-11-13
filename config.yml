@@ -10,6 +10,6 @@ name: tyomaa-starter
 development:
   # Domains are automatically mapped to Vagrant with /etc/hosts modifications
   domains:
-    - tyomaa-starter.local
+    - tyomaa-starter.test
   # If you want to use zeroconf (.local domains) in your network you can use this.
   #avahi: true
