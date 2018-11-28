@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f718e73d462815ab91d41df8af9ce00",
+    "content-hash": "bccd47e6fbc0ac1bca6f9c06812a6465",
     "packages": [
         {
             "name": "composer/installers",
@@ -1102,15 +1102,15 @@
         },
         {
             "name": "wpackagist-plugin/google-analytics-dashboard-for-wp",
-            "version": "5.3.5",
+            "version": "5.3.7",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/google-analytics-dashboard-for-wp/",
-                "reference": "tags/5.3.5"
+                "reference": "tags/5.3.7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.5.zip",
+                "url": "https://downloads.wordpress.org/plugin/google-analytics-dashboard-for-wp.5.3.7.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1122,15 +1122,15 @@
         },
         {
             "name": "wpackagist-plugin/polylang",
-            "version": "2.4",
+            "version": "2.4.1",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/polylang/",
-                "reference": "tags/2.4"
+                "reference": "tags/2.4.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/polylang.2.4.zip",
+                "url": "https://downloads.wordpress.org/plugin/polylang.2.4.1.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -1182,15 +1182,15 @@
         },
         {
             "name": "wpackagist-plugin/timber-library",
-            "version": "1.8.1",
+            "version": "1.8.3",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/timber-library/",
-                "reference": "tags/1.8.1"
+                "reference": "tags/1.8.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/timber-library.1.8.1.zip",
+                "url": "https://downloads.wordpress.org/plugin/timber-library.1.8.3.zip",
                 "reference": null,
                 "shasum": null
             },
