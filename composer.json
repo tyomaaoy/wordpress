@@ -77,7 +77,8 @@
     "wpackagist-plugin/user-switching": "*",
     "wpackagist-plugin/enable-media-replace": "*",
     "wpackagist-plugin/simple-history": "*",
-    "k1sul1/sensible-content-output": "dev-master"
+    "k1sul1/sensible-content-output": "dev-master",
+    "wpackagist-plugin/classic-editor": "^0.5.0"
   },
   "extra": {
     "installer-paths": {
