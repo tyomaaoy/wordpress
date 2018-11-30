@@ -61,8 +61,6 @@ myrecording
 # Development related files, logs, configs etc.
 pre-production-pull-backup-*.sql
 /wp-cli.yml
-/htdocs/wp-content/debug.log
-/htdocs/wp-content/wp-login.log
 
 # Plugins which can't be handled with Composer
 !htdocs/wp-content/plugins/advanced-custom-fields-pro
