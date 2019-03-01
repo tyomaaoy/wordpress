@@ -76,6 +76,7 @@ myrecording
 
 # Development related files, logs, configs etc.
 /wp-cli.yml
+nginx/development.conf
 
 # Plugins & themes which can't or shouldn't be handled with Composer
 htdocs/wp-content/themes/tyomaa-starter-theme
