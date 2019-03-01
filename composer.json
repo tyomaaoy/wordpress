@@ -34,6 +34,10 @@
     {
       "type": "composer",
       "url": "https://wp-languages.github.io"
+    },
+    {
+      "type": "composer",
+      "url": "https://starter.tyomaa.com/satispress/"
     }
   ],
   "require": {
