@@ -69,3 +69,13 @@ myrecording
 # OSX Desktop Services Store files.
 .DS_Store
 .idea
+
+##
+# Tyomaa
+##
+
+# Development related files, logs, configs etc.
+/wp-cli.yml
+
+# Plugins & themes which can't or shouldn't be handled with Composer
+htdocs/wp-content/themes/tyomaa-starter-theme
