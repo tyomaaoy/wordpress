@@ -1,0 +1,9 @@
+###
+# To use this file, rename it to "development.conf".
+# These setting should not be used on production server,
+# so add the filename to .gitignore (if it already isn't there).
+###
+
+# Serve static files without "sendfile" module.
+# A VirtualBox bug causes caching problems or forces vagrant to serve corrupt files via nginx.
+sendfile off;
