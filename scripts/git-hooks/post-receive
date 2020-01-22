@@ -104,6 +104,61 @@ then
   fi
 fi
 
+
+##
+# TYÖMAA
+##
+
+THEME_DIRECTORY="$(wp theme list --status=active --field=name)"
+
+# Check files which have triggers
+while read -r line; do
+  if [ "$line" == "htdocs/wp-content/themes/$THEME_DIRECTORY/yarn.lock" ]; then
+    THEME_YARN_LOCK_CHANGED=true
+  elif [ "$line" == "htdocs/wp-content/themes/$THEME_DIRECTORY/package-lock.json" ]; then
+    THEME_NPM_LOCK_CHANGED=true
+  elif [ "$line" == "htdocs/wp-content/themes/$THEME_DIRECTORY/composer.lock" ]; then
+    THEME_COMPOSER_LOCK_CHANGED=true
+  fi
+
+  if [[ "$line" == htdocs/wp-content/themes/$THEME_DIRECTORY/* ]]; then
+    THEME_FILES_CHANGED=true
+  fi
+done <<< "$changed_files"
+
+# Build and deploy assets
+cd ./htdocs/wp-content/themes/$THEME_DIRECTORY
+
+if [ "$THEME_NPM_LOCK_CHANGED" ]; then
+  echo "Työmaa: Theme package-lock.json was updated, installing..."
+  npm install --no-save
+fi
+
+if [ "$THEME_YARN_LOCK_CHANGED" ]; then
+  echo "Työmaa: Theme yarn.lock was updated, installing..."
+  yarn install --frozen-lockfile
+fi
+
+if [ "$THEME_COMPOSER_LOCK_CHANGED" ]; then
+  echo "Työmaa: Theme composer [lock] was updated, installing..."
+  composer install --no-dev
+fi
+
+if [ "$THEME_FILES_CHANGED" ]; then
+  echo "Työmaa: Some theme files changed, running build..."
+
+  if [ -f yarn.lock ]; then
+    yarn build
+  fi
+
+  if [ -f package-lock.json ]; then
+    npm run build
+  fi
+fi
+
+# TYÖMAA END
+
+
 # On every git push, always flush caches so the server will serve fresh contents
 echo "Seravo: Flushing all caches..."
 /usr/local/bin/wp-purge-cache
