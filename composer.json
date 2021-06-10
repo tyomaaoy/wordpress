@@ -41,7 +41,7 @@
     }
   ],
   "require": {
-    "php": ">=7.2",
+    "php": ">=8.0",
     "johnpbloch/wordpress-core-installer": "^2.0",
     "johnpbloch/wordpress-core": "^5.0",
     "composer/installers": "^1.0",
@@ -60,18 +60,26 @@
 
     "wpackagist-theme/twentynineteen": "*",
 
-    "wpackagist-plugin/timber-library": "^1.9",
     "devgeniem/wp-sanitize-accented-uploads": "*",
-    "wpackagist-plugin/autodescription": "*",
     "roots/soil": "*",
     "roots/wp-password-bcrypt": "*",
-
-    "wpackagist-plugin/regenerate-thumbnails": "*",
-    "wpackagist-plugin/user-switching": "*",
+    "satispress/advanced-custom-fields-pro": "*",
+    "satispress/tyomaa-helper-plugin": "0.1.24",
+    "wpackagist-plugin/autodescription": "*",
+    "wpackagist-plugin/block-options": "*",
+    "wpackagist-plugin/cookiebot": "*",
+    "wpackagist-plugin/disable-media-pages": "*",
+    "wpackagist-plugin/duplicate-post": "*",
     "wpackagist-plugin/enable-media-replace": "*",
+    "wpackagist-plugin/filebird": "*",
+    "wpackagist-plugin/find-my-blocks": "*",
+    "wpackagist-plugin/redirection": "*",
+    "wpackagist-plugin/regenerate-thumbnails": "*",
+    "wpackagist-plugin/reusable-blocks-extended": "*",
+    "wpackagist-plugin/shortpixel-image-optimiser": "*",
     "wpackagist-plugin/simple-history": "*",
-    "k1sul1/sensible-content-output": "dev-master",
-    "satispress/advanced-custom-fields-pro": "*"
+    "wpackagist-plugin/timber-library": "^1.9",
+    "wpackagist-plugin/user-switching": "*"
   },
   "extra": {
     "installer-paths": {
