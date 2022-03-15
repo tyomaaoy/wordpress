@@ -75,8 +75,8 @@
   },
   "extra": {
     "installer-paths": {
+      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin", "satispress/tyomaa-helper-plugin"],
       "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
-      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin"],
       "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
     },
     "dropin-paths": {
