@@ -60,7 +60,7 @@
     "roots/soil": "*",
     "roots/wp-password-bcrypt": "*",
     "satispress/advanced-custom-fields-pro": "*",
-    "satispress/tyomaa-helper-plugin": "0.1.24",
+    "satispress/tyomaa-helper-plugin": "0.1.30",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/block-options": "*",
     "wpackagist-plugin/cookiebot": "*",
