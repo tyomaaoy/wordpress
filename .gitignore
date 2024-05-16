@@ -10,7 +10,7 @@ htdocs/.htaccess
 db-sync
 sql-dump-*.sql
 
-# Custon environment variables may include passwords and other
+# Custom environment variables may include passwords and other
 # secrets and should not be tracked in git
 .env
 .env.*
