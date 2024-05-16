@@ -58,7 +58,6 @@
     "devgeniem/wp-sanitize-accented-uploads": "*",
     "roots/acorn": "^4.2",
     "roots/acorn-prettify": "^1.0",
-    "roots/soil": "*",
     "roots/wp-password-bcrypt": "*",
     "satispress/advanced-custom-fields-pro": "*",
     "satispress/tyomaa-helper-plugin": "0.1.30",
