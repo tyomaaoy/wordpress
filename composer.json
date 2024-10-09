@@ -109,9 +109,6 @@
     ],
     "post-update-cmd": [
       "WordPress\\Installer::symlinkWPContent"
-    ],
-    "post-autoload-dump": [
-      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
     ]
   }
 }
