@@ -56,9 +56,8 @@
     "wpackagist-theme/twentytwentythree": "*",
 
     "devgeniem/wp-sanitize-accented-uploads": "*",
-    "roots/soil": "*",
     "satispress/advanced-custom-fields-pro": "*",
-    "satispress/tyomaa-helper-plugin": "0.1.30",
+    "satispress/tyomaa-helper-plugin": "0.2.35",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/block-options": "*",
     "wpackagist-plugin/cookiebot": "*",
@@ -72,7 +71,6 @@
     "wpackagist-plugin/reusable-blocks-extended": "*",
     "wpackagist-plugin/shortpixel-image-optimiser": "*",
     "wpackagist-plugin/simple-history": "*",
-    "wpackagist-plugin/timber-library": "^1.9",
     "wpackagist-plugin/user-switching": "*"
   },
   "config": {
