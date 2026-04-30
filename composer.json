@@ -57,7 +57,7 @@
 
     "devgeniem/wp-sanitize-accented-uploads": "*",
     "satispress/advanced-custom-fields-pro": "*",
-    "satispress/tyomaa-helper-plugin": "0.2.35",
+    "satispress/tyomaa-groundwork": "0.1.1",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/block-options": "*",
     "wpackagist-plugin/cookiebot": "*",
@@ -85,7 +85,7 @@
   },
   "extra": {
     "installer-paths": {
-      "htdocs/wp-content/mu-plugins/{$name}/": ["type:wordpress-muplugin", "satispress/tyomaa-helper-plugin"],
+      "htdocs/wp-content/mu-plugins/{$name}/":["type:wordpress-muplugin", "satispress/tyomaa-groundwork"],
       "htdocs/wp-content/plugins/{$name}/": ["type:wordpress-plugin"],
       "htdocs/wp-content/themes/{$name}": ["type:wordpress-theme"]
     },
