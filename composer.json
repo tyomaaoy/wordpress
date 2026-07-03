@@ -58,6 +58,7 @@
     "devgeniem/wp-sanitize-accented-uploads": "*",
     "satispress/advanced-custom-fields-pro": "*",
     "satispress/tyomaa-groundwork": "0.1.1",
+    "wpackagist-plugin/admin-menu-editor": "*",
     "wpackagist-plugin/autodescription": "*",
     "wpackagist-plugin/cookiebot": "*",
     "wpackagist-plugin/disable-media-pages": "*",
